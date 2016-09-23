@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 12 Feb 2016 2:02:16 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="org.mypackage.yuqar.hibernate.Services" table="SERVICES" schema="GONTSE" optimistic-lock="version">
+        <id name="sid" type="int">
+            <column name="SID" />
+            <generator class="assigned" />
+        </id>
+        <property name="serviceName" type="string">
+            <column name="SERVICE_NAME" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>

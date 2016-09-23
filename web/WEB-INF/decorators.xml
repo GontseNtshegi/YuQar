@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : decorators.xml
+    Created on : 18 May 2015, 2:30 PM
+    Author     : A199026
+    Description:
+        Purpose of the document follows.
+-->
+<decorators defaultdir="/master">
+    <decorator name="main" page="master.jsp">
+       <pattern>/YuQar_Technologies/*</pattern>
+       
+    </decorator>
+</decorators> 
